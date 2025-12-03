@@ -1,0 +1,29 @@
+{
+  "name": "advanced-welcome-bot",
+  "version": "1.0.0",
+  "description": "Advanced Welcome + Join Graph Discord Bot with modern canvas graphics",
+  "main": "src/bot.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/bot.js",
+    "dev": "node --watch src/bot.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "welcome",
+    "canvas",
+    "graph"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^3.2.0",
+    "chartjs-node-canvas": "^5.0.0",
+    "dayjs": "^1.11.10",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.3.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  }
+}
